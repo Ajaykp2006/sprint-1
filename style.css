@@ -1,11 +1,8 @@
-/* =========================================
-   Theme Variables
-   ========================================= */
 :root {
     --bg-color: #ffffff;
     --text-color: #111827;
-    --primary-color: #2563eb;
-    --primary-hover: #1d4ed8;
+    --primary-color: #78f144;
+    --primary-hover: #4ae910;
     --card-bg: #f3f4f6;
     --nav-bg: rgba(255, 255, 255, 0.95);
     --border-color: #e5e7eb;
@@ -14,16 +11,13 @@
 }
 
 body.dark-mode {
-    --bg-color: #111827;
+    --bg-color: #0f1627;
     --text-color: #f9fafb;
-    --card-bg: #1f2937;
-    --nav-bg: rgba(17, 24, 39, 0.95);
+    --card-bg: #1c2837;
+    --nav-bg: rgba(20, 31, 54, 0.95);
     --border-color: #374151;
 }
 
-/* =========================================
-   Global Reset & Typography
-   ========================================= */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +33,6 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Buttons */
 .btn-primary {
     display: inline-block;
     background-color: var(--primary-color);
@@ -61,9 +54,6 @@ body {
     width: 100%;
 }
 
-/* =========================================
-   Navbar
-   ========================================= */
 .navbar {
     position: sticky;
     top: 0;
@@ -83,27 +73,9 @@ body {
     padding: 1rem 2rem;
 }
 
-.logo { 
-    display: flex; 
-    align-items: center; 
-    gap: 0.5rem; 
-    font-size: 1.5rem; 
-    font-weight: 800; 
-    text-decoration: none; 
-    color: var(--text-color); 
-    transition: transform 0.2s ease; 
-}
-
-.logo:hover { transform: scale(1.05); }
-
-.logo-icon { 
-    width: 28px; 
-    height: 28px; 
-    fill: none; 
-    stroke: var(--primary-color); 
-    stroke-width: 2; 
-    stroke-linecap: round; 
-    stroke-linejoin: round; 
+.custom-logo {
+    height: 80px; 
+    width: auto;
 }
 
 .nav-links {
@@ -146,9 +118,6 @@ body {
     color: var(--text-color);
 }
 
-/* =========================================
-   Hero Section
-   ========================================= */
 .hero {
     display: flex;
     justify-content: center;
@@ -184,9 +153,6 @@ body {
 }
 .hero-image:hover { transform: scale(1.02); }
 
-/* =========================================
-   About Section
-   ========================================= */
 .about { max-width: 1200px; margin: 0 auto; padding: 5rem 2rem; }
 .about-container { display: flex; align-items: center; gap: 4rem; }
 .about-text { flex: 1; }
@@ -206,9 +172,6 @@ body {
 }
 .about-image:hover { transform: scale(1.02); }
 
-/* =========================================
-   Services Section (CSS Grid)
-   ========================================= */
 .services { max-width: 1200px; margin: 0 auto; padding: 5rem 2rem; }
 .services h2 { font-size: 2.25rem; margin-bottom: 3rem; text-align: center; }
 
@@ -229,9 +192,6 @@ body {
 .service-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); }
 .dark-mode .service-card:hover { box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); }
 
-/* =========================================
-   Contact Section
-   ========================================= */
 .contact { background-color: var(--card-bg); padding: 5rem 2rem; }
 .contact > h2 { text-align: center; font-size: 2.25rem; margin-bottom: 3rem; }
 .contact-container { max-width: 1200px; margin: 0 auto; display: flex; gap: 4rem; }
@@ -274,9 +234,6 @@ body {
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
-/* =========================================
-   Footer Styling
-   ========================================= */
 footer {
     background-color: #0f172a; 
     color: #ffffff;
@@ -312,14 +269,14 @@ footer {
     justify-content: center;
     width: 44px;
     height: 44px;
-    background-color: #2563eb;
+    background-color: #78f144;;
     border-radius: 50%;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .social-icons a:hover {
-    background-color: #1d4ed8;
+    background-color: #4ae910;
     transform: translateY(-3px);
 }
 
@@ -329,9 +286,7 @@ footer {
     fill: #ffffff;
 }
 
-/* =========================================
-   Mobile Breakpoints
-   ========================================= */
+
 @media (max-width: 768px) {
     .mobile-menu-btn { display: block; }
     
