@@ -10,17 +10,9 @@ A fast, responsive, and modern landing page built for **Prodesk IT**, an IT and 
 - **Interactive UI Components:** Includes smooth scrolling, hover animations (like the About section image scale), and a mobile-friendly collapsing hamburger navigation menu.
 - **Custom Branding:** Integrated custom logo scaling and professional layout structuring for a corporate aesthetic.
 
-## 📁 File Structure
-
-```text
-/
-├── index.html       # Main HTML document and layout structure
-├── 1.css            # Global styles, variables, theme logic, and media queries
-├── 1.js             # Theme toggle logic, mobile menu controller, and form handling
-├── logo.jpg         # Prodesk IT custom brand logo
-└── prompt.md        # Log of AI prompts utilized during the development sprint
-
 <body>
+
+  <img width="1898" height="1087" alt="Screenshot 2026-07-13 160207" src="https://github.com/user-attachments/assets/23949b0a-c015-4b7c-92b1-df68c6076c70" />
 
 
 <h1>Here is the live URl :</h1>
