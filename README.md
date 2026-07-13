@@ -5,7 +5,7 @@ A fast, responsive, and modern landing page built for **Prodesk IT**, an IT and 
 ## 🔗 Important Links
 
 - **Live Website:** [sprint-1-black.vercel.app](https://sprint-1-black.vercel.app/)
-- **Demo Video:** [Inserted video link here]([https://drive.google.com/drive/u/1/folders/1agGuKbzM4jwN3Y1M8f7TlZgkAS6kiv2e](https://drive.google.com/file/d/1r4BjzBTeCGHkE9T9ZS16zxL1Su5LBaVT/view))
+- **Demo Video:** [Inserted video link here](https://drive.google.com/file/d/1r4BjzBTeCGHkE9T9ZS16zxL1Su5LBaVT/view)
 
 ## 📸 Screenshot
 
